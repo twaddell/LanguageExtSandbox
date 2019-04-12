@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageExtSandbox", "LanguageExtSandbox\LanguageExtSandbox.csproj", "{D18A86CA-56F0-48B8-A1C3-9187BB558880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageExtSandbox.UnitTests", "LanguageExtSandbox.UnitTests\LanguageExtSandbox.UnitTests.csproj", "{D8F838C5-EC28-4853-81CF-DC357145408B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{452CC036-272F-4397-8028-DCCFC6D44968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D18A86CA-56F0-48B8-A1C3-9187BB558880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18A86CA-56F0-48B8-A1C3-9187BB558880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18A86CA-56F0-48B8-A1C3-9187BB558880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18A86CA-56F0-48B8-A1C3-9187BB558880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F838C5-EC28-4853-81CF-DC357145408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F838C5-EC28-4853-81CF-DC357145408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F838C5-EC28-4853-81CF-DC357145408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F838C5-EC28-4853-81CF-DC357145408B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8F838C5-EC28-4853-81CF-DC357145408B} = {452CC036-272F-4397-8028-DCCFC6D44968}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F31D3C7-C190-4F1C-902D-90CDDD86A99B}
+	EndGlobalSection
+EndGlobal
